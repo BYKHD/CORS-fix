@@ -6,7 +6,7 @@
   <body>
     <script>
       // Use Corsfix to make the request
-      fetch(`https://proxy.corsfix.com/?<TARGET_URL>`)
+      fetch(`https://proxy.corsfix.com/?https://api.lokalise.com/api2/projects`)
         .then((response) => response.json())
         .then((data) => {
           // Send data back to the Figma plugin
